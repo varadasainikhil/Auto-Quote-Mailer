@@ -9,7 +9,7 @@ sender_mail = ""
 sender_password = ""
 receiver_mail = ""
 
-if today == 1:
+if today == 0:
     with open("quotes.txt", "r") as file:
         list_of_quotes = file.readlines()
         quote_of_the_day = random.choice(list_of_quotes)
